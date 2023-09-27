@@ -86,5 +86,14 @@ public class SQL_admin {
 	
 	//상품선택
 	public final static String SELECT_PRODUCT = "SELECT * FROM `km_product` WHERE `prodNo` = ? ";
+
+	//상품 검색
+	public final static String SEARCH_PRODUCTNAME = "SELECT * FROM `km_product` WHERE `prodName` LIKE  '%?%' ";
+	public final static String SEARCH_PRODUCTSELLER = "SELECT * FROM `km_product` WHERE `seller` LIKE  '%?%' ";
+	public final static String SEARCH_PRODUCTPRODNO = "SELECT * FROM `km_product` WHERE `prodNo` LIKE  '%?%' ";
+	public final static String SEARCH_PRODUCTCOMPANY = "SELECT * FROM `km_product` WHERE `company` LIKE  '%?%' ";
+	
+	
+	
 	
 }

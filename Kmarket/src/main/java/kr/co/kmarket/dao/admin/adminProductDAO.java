@@ -1,5 +1,7 @@
 package kr.co.kmarket.dao.admin;
 
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -61,5 +63,8 @@ public class adminProductDAO extends DBHelper {
 		
 		return dto;
 	}
+	
+	
+	
 
 }

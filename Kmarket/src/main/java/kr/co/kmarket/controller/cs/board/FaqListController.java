@@ -43,11 +43,12 @@ public class FaqListController extends HttpServlet {
 		//	List<ArticleDTO> li = new ArrayList<>();
 		//	for (ArticleDTO article : articles) {
 		//		if (list.getType() == article.getType()) {
-		//			li.add(article);
+		//		li.add(article);
 		//		}
 		//	}
 		//	list.setArticles(li);
 		//}
+		
  		logger.debug(lists.toString());
  		logger.debug(articles.toString());
 		
